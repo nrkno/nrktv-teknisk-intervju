@@ -17,3 +17,12 @@ export function getAllLocations(): ILocation[] {
 export function getLocationById(id: string): ILocation | undefined {
   return locations.find((location) => location.id === id);
 }
+
+/**
+ * Gets a random location by its id
+ * @returns The the random location
+ */
+export function getRandomLocation(): ILocation {
+  const randomIndex = Math.floor(Math.random() * locations.length);
+  return locations[randomIndex];
+}
