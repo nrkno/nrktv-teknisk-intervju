@@ -4,11 +4,11 @@ function App() {
   return (
     <div className="app text-style-body">
       <header className="app__header">
-        <img src="./nrk-tv-logo-with-bg.svg" className="app__header-logo" alt="NRK TV logo" />
+        <img src="./nrk-tv-logo-with-bg.svg" alt="NRK TV logo" />
       </header>
       <main>
         <h2>Da er du klar for intervju 🎉</h2>
-        <ul className="app__welcome-list">
+        <ul>
           <li>
             Kikk litt på filene i <code>src</code> mappen for å bli kjent med oppsettet.
           </li>
@@ -24,7 +24,7 @@ function App() {
         </ul>
       </main>
       <footer>
-        <img src="./logo-nrk.svg" className="app__footer-logo" alt="NRK logo" />
+        <img src="./logo-nrk.svg" alt="NRK logo" />
       </footer>
     </div>
   );
