@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="app">
       <header className="app__header">
-        <img src="./logo-yr.svg" className="app__header-logo" alt="Yr logo" />
+        <img src="./nrk-tv-logo-with-bg.svg" className="app__header-logo" alt="NRK TV logo" />
       </header>
       <main className="app__main">
         <h2 className="app__welcome-header">Da er du klar for intervju 🎉</h2>
@@ -24,7 +24,6 @@ function App() {
         </ul>
       </main>
       <footer className="app__footer">
-        <img src="./logo-met.svg" className="app__footer-logo" alt="Met logo" />
         <img src="./logo-nrk.svg" className="app__footer-logo" alt="NRK logo" />
       </footer>
     </div>
