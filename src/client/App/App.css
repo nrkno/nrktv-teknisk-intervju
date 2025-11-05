@@ -1,37 +1,26 @@
 @import '../../styles/global.css';
 
 .app {
-  font-size: var(--font-size-base);
-  color: var(--color-text-base);
-  font-weight: var(--font-weight-normal);
-  font-family: var(--font-family-base);
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  max-width: 800px;
+  max-width: 50rem;
   margin: 0 auto;
   text-align: center;
 }
 
 .app__header-logo {
-  height: 8em;
-  padding: 1rem;
+  margin: auto;
+  height: 10rem;
+  padding: var(--size-ml);
 }
 
-.app__welcome-header {
-  font-size: var(--font-size-large);
-  font-weight: var(--font-weight-bold);
+main h2 {
+  padding-bottom: var(--size-m);
 }
 
-.app__welcome-list {
-  color: var(--color-text-subtle);
-  font-size: var(--font-size-medium);
-  list-style: inside;
+ul {
   text-align: left;
 
   li {
-    margin-bottom: 0.5rem;
+    margin-bottom: var(--size-xs);
   }
 }
 
@@ -40,7 +29,8 @@
   justify-content: space-around;
 }
 
-.app__footer-logo {
-  height: 2.5rem;
-  margin-top: 1rem;
+footer img {
+  margin: auto;
+  height: var(--size-ml);
+  margin-top: var(--size-m);
 }
