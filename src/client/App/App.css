@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.app__header-logo {
+header img {
   margin: auto;
   height: 10rem;
   padding: var(--size-ml);
@@ -22,11 +22,6 @@ ul {
   li {
     margin-bottom: var(--size-xs);
   }
-}
-
-.app__footer {
-  display: flex;
-  justify-content: space-around;
 }
 
 footer img {

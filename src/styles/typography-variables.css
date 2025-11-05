@@ -48,7 +48,6 @@
   --nrk-sans-ultra-extended: 'wdth' var(--nrk-sans-width-ultra-extended);
   /* Feature settings */
   --nrk-sans-features-super: 'ss01', 'ss02';
-  --nrk-sans-features-animation: 'ss04';
 }
 
 :root {

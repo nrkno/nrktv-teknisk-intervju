@@ -12,9 +12,9 @@
   --ease-out: cubic-bezier(0.12, 0, 0, 1);
 
   /* Font */
-  --font-feature-settings-smaa-barn: 'ss01', 'ss02';
-  --font-feature-settings-mellom-barn: 'ss01', 'ss02';
-  --font-feature-settings-store-barn: 'ss01', 'ss02';
+  --font-feature-settings-smaa-barn: var(--nrk-sans-features-super);
+  --font-feature-settings-mellom-barn: var(--nrk-sans-features-super);
+  --font-feature-settings-store-barn: var(--nrk-sans-features-super);
   --font-feature-settings-ung: normal;
   --font-feature-settings-voksen: normal;
   --font-feature-settings: var(--font-feature-settings-voksen);
