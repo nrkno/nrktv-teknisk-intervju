@@ -2,12 +2,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="app">
+    <div className="app text-style-body">
       <header className="app__header">
         <img src="./nrk-tv-logo-with-bg.svg" className="app__header-logo" alt="NRK TV logo" />
       </header>
-      <main className="app__main">
-        <h2 className="app__welcome-header">Da er du klar for intervju 🎉</h2>
+      <main>
+        <h2>Da er du klar for intervju 🎉</h2>
         <ul className="app__welcome-list">
           <li>
             Kikk litt på filene i <code>src</code> mappen for å bli kjent med oppsettet.
@@ -23,7 +23,7 @@ function App() {
           <li>Vel møtt!</li>
         </ul>
       </main>
-      <footer className="app__footer">
+      <footer>
         <img src="./logo-nrk.svg" className="app__footer-logo" alt="NRK logo" />
       </footer>
     </div>
